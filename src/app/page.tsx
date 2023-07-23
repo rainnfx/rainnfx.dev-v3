@@ -24,6 +24,12 @@ export default function Home() {
         <h3 className="text-offer-white text-3xl font-bold mb-4" dangerouslySetInnerHTML={{ __html: content }}></h3> 
         <p className='text-xl text-comment'>As you have read seconds ago, my name is Matteo. I am a highschool <br></br>student who is focusing on learning and improving on programming <br></br>languages, frameworks, and libraries for my future.</p>
       </section>
+      <section className="hero w-section h-screen flex flex-col mt-32 mx-auto">
+        <div>
+          <h3 className='text-3xl text-offer-white font-semibold'><span className="text-lavendar font-light text-2xl font-mono">01. </span>Projects</h3>
+          <hr className='text-comment'></hr>
+        </div>
+      </section>
       <footer>
         <div className="w-footer mt-32 mx-auto">
           <p className="text-comment mb-7">Copyright © 2023 <a className="text-offer-white left-10 font-semibold transition-all duration-500 ease-in-out hover:text-off-white hover:cursor-pointer">@rainnfx</a></p>
