@@ -1,11 +1,11 @@
 import Hero from "./hero";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import Projects from "./projects";
+import About from "./about";
 
 export {
     Hero,
-    Projects,
+    About,
     Navbar,
     Footer,
 }

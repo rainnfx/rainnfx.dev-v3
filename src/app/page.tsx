@@ -1,10 +1,10 @@
-import { Hero, Projects } from '../../components';
+import { About, Hero } from '../../components';
 
 export default function Home() {  
   return (
     <main className="overflow-hidden">
       <Hero />
-      <Projects />
+      <About />
     </main>
   )
 }
