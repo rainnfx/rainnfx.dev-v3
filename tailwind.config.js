@@ -15,6 +15,7 @@ module.exports = {
     colors: {
       'midnight': '#011627',
       'light-slate': '#7f9dfa',
+      'lightest-slate': '#233554',
       'lavendar': '#b38df0',
       'mint': '#7fdbca',
       'buttermilk': '#e9f996',
