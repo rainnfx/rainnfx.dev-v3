@@ -6,33 +6,33 @@ const About = () => {
         <h1 className="text-3xl font-bold text-off-white mr-2 mb-2">About</h1>
         <hr className="text-lightest-slate w-1/2 rounded-md"/>
       </div>
-      <div>
-        <p className="mt-5 text-comment font-semibold">
+      <div className="inline-flex">
+        <div className="txt">
+          <p className="mt-5 text-comment font-semibold">
           Heya! I'm Matteo. My programming journey started when<br/>
-          I was 10 years old, I started on the platform called roblox<br/>
-          the, "Imagination Platform" as they now call it.
-        </p>
+          I was 10 years old, I started on the platform called<br/>
+          roblox the, "Imagination Platform" as they now call it.<br/>
+          </p>
 
-        <p className="mt-5 text-comment font-semibold">
-          I learned the coding language Roblox Studio utilizes
-          which is LUAU<br/> (a modified version of LUA)
-          I enjoyed making some really basic games,<br/> 
-          obviously it did not really go anywhere though.
-        </p>
-        
-        <p className="mt-5 text-comment font-semibold">
-          Heya! I'm Matteo. My programming journey started when<br/>
-          I was 10 years old, I started on the platform called roblox<br/>
-          the, "Imagination Platform" as they now call it. I learned<br/>
-          their coding language which is LUAU (modified version of LUA)<br/>
-          I enjoyed making some really basic games, obviously it did not<br/>
-          really go anywhere though. Which is why I moved to the more<br/>
-          "realistic" path of Software Development at the age 12. I now make small<br/>
+          <p className="mt-5 text-comment font-semibold">
+          I learned the coding language Roblox Studio utilizes<br/>
+          which is LUAU (a modified version of LUA) I enjoyed <br/>
+          making some really basic games, obviously it wasn't <br/>
+          a realistic career, and I wanted to do harder things.<br/>
+          </p>
+          
+          <p className="mt-5 text-comment font-semibold">
+          Which is why I moved to the more "realistic" path of<br/>
+          Software Development at the age 12. I now make small<br/>
           sometimes simple sometimes complex projects to get more<br/>
           experience with programming. Every now and then I dabble<br/>
           in other paths like Hardware Engineering, Data Science,<br/>
-          and so on!
-        </p>
+          Game Development, Artifical Intelligence, and so on!<br/>
+          </p>
+        </div>
+        <div className="img ml-4">
+          <img src="https://picsum.photos/1600/1600" height="400" width="400" className="rounded-lg"/>
+        </div>
       </div>
     </section>
   )
