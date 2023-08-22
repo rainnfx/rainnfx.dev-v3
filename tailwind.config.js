@@ -2,6 +2,8 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -13,6 +15,7 @@ module.exports = {
     colors: {
       'midnight': '#011627',
       'light-slate': '#7f9dfa',
+      'lightest-slate': '#233554',
       'lavendar': '#b38df0',
       'mint': '#7fdbca',
       'buttermilk': '#e9f996',
