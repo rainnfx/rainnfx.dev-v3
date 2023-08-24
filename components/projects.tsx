@@ -4,7 +4,7 @@ const Projects = () => {
       <div className="flex items-center">
         <h2 className="text-2xl text-light-slate font-mono mr-2">02.</h2>
         <h1 className="text-3xl font-bold text-off-white mr-2 mb-2">Projects</h1>
-        <hr className="text-lightest-slate w-1/2 rounded-md"/>
+        <hr className="text-darker-slate w-1/2 rounded-md"/>
       </div>
     </section>
   )
