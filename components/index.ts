@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 import About from "./about";
 import Projects from "./projects";
+import FeaturedProject from "./featuredproject";
 
 export {
     Hero,
@@ -10,4 +11,5 @@ export {
     Projects,
     Navbar,
     Footer,
+    FeaturedProject,
 }
