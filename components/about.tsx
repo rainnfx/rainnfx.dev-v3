@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="hero w-section h-screen flex flex-col mx-auto">
+    <section className="hero w-section h-[800px] flex flex-col mx-auto">
       <div className="flex items-center">
         <h2 className="text-2xl text-light-slate font-mono mr-2">01.</h2>
         <h1 className="text-3xl font-bold text-off-white mr-2 mb-2">About</h1>
@@ -47,9 +47,9 @@ const About = () => {
           <Image
             src="https://picsum.photos/1600/1600"
             alt="photo of me"
-            height="400"
-            width="400"
-            className="ml-4 rounded-lg"
+            height="350"
+            width="350"
+            className="ml-4 mt-6 rounded-lg"
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import svgIcon from '../src/app/MA.svg'
+import Image from "next/image";
+import svgIcon from "../src/app/MA.svg";
 
 const Navbar = () => {
   return (
@@ -7,12 +7,7 @@ const Navbar = () => {
       <nav className="flex items-center">
         <div className="logo">
           <a>
-            <Image
-              src={svgIcon}
-              alt="My SVG"
-              width={105}
-              height={105}
-            />
+            <Image src={svgIcon} alt="My SVG" width={105} height={105} />
           </a>
         </div>
 
@@ -23,19 +18,22 @@ const Navbar = () => {
               About
             </li>
             <li className="text-lightest-slate text-sm hover:text-light-slate transition-colors">
-              <span className="text-light-slate font-mono text-sm hover:text-light-slate transition-colors">02. </span>
+              <span className="text-light-slate font-mono text-sm hover:text-light-slate transition-colors">
+                02.{" "}
+              </span>
               Projects
             </li>
             <li className="text-lightest-slate text-sm hover:text-light-slate transition-colors">
-              <span className="text-light-slate font-mono text-sm hover:text-light-slate transition-colors">03. </span>
+              <span className="text-light-slate font-mono text-sm hover:text-light-slate transition-colors">
+                03.{" "}
+              </span>
               Contact
             </li>
           </ul>
         </div>
       </nav>
     </header>
+  );
+};
 
-  )
-}
-
-export default Navbar
+export default Navbar;
